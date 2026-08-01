@@ -1,0 +1,9 @@
+
+def login(name,family,code):
+	if name and family and code:
+		print("login")
+	else:
+		print("not found")
+
+login("Me","Meon",124)
+
